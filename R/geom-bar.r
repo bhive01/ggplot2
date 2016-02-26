@@ -94,6 +94,7 @@ geom_bar <- function(mapping = NULL, data = NULL, stat = "count",
     show.legend = show.legend,
     inherit.aes = inherit.aes,
     params = list(
+      pad = FALSE,
       width = width,
       na.rm = na.rm,
       ...
