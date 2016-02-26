@@ -75,7 +75,8 @@
 #' }
 geom_bar <- function(mapping = NULL, data = NULL, stat = "count",
                      position = "stack", width = NULL, binwidth = NULL, ...,
-                     na.rm = FALSE, show.legend = NA, inherit.aes = TRUE) {
+                     pad = FALSE, na.rm = FALSE, show.legend = NA,
+                     inherit.aes = TRUE) {
 
   if (!is.null(binwidth)) {
     warning("`geom_bar()` no longer has a `binwidth` parameter. ",
